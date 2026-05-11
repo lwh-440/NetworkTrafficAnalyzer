@@ -1,0 +1,22 @@
+{
+  "capture": {
+    "buffer_size": 1000,
+    "auto_save_interval": 300,
+    "capture_mode": "promiscuous"
+  },
+  "display": {
+    "refresh_interval": 500,
+    "theme": "clam",
+    "font_size": 11
+  },
+  "storage": {
+    "default_format": "pcap",
+    "auto_clean": true,
+    "data_path": "data"
+  },
+  "advanced": {
+    "performance_mode": false,
+    "log_level": "INFO",
+    "check_update": true
+  }
+}

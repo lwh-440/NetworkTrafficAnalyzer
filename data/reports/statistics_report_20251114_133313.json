@@ -1,0 +1,123 @@
+{
+  "generated_at": "2025-11-14T13:33:13.501993",
+  "real_time_metrics": {
+    "total_packets": 3696,
+    "packet_rate": 1.5758374082096156,
+    "duration": 244.529605,
+    "ipv6_ratio": 3.7067099567099566,
+    "unique_ips": 54,
+    "unique_ports": 153
+  },
+  "protocol_distribution": {
+    "TCP": {
+      "count": 1194,
+      "percentage": 32.3051948051948
+    },
+    "DNS": {
+      "count": 469,
+      "percentage": 12.68939393939394
+    },
+    "TCPv6": {
+      "count": 124,
+      "percentage": 3.354978354978355
+    },
+    "UDP": {
+      "count": 1895,
+      "percentage": 51.27164502164502
+    },
+    "UDPv6": {
+      "count": 8,
+      "percentage": 0.21645021645021645
+    },
+    "IPv6": {
+      "count": 5,
+      "percentage": 0.13528138528138528
+    },
+    "ICMP": {
+      "count": 1,
+      "percentage": 0.027056277056277056
+    }
+  },
+  "top_ips": {
+    "10.195.154.67": 3553,
+    "36.249.95.100": 1604,
+    "113.59.44.217": 353,
+    "10.5.5.5": 270,
+    "10.6.6.6": 199,
+    "57.155.141.117": 147,
+    "2400:6000:20c:196a:2d01:bf15:6f1e:e5cb": 124,
+    "180.130.96.104": 122,
+    "114.250.66.41": 118,
+    "202.89.233.96": 111,
+    "202.89.233.100": 82,
+    "52.182.143.215": 81,
+    "2408:8756:d0fd:f002:8000:0:b00:111": 69,
+    "150.171.27.11": 44,
+    "112.90.43.157": 42,
+    "112.65.69.194": 31,
+    "27.115.124.189": 26,
+    "112.65.69.195": 25,
+    "202.89.233.101": 25,
+    "112.65.69.11": 24
+  },
+  "top_ports": {
+    "src_443": 1809,
+    "dst_443": 1374,
+    "dst_54280": 606,
+    "dst_59535": 421,
+    "src_59535": 342,
+    "dst_53": 249,
+    "src_53": 220,
+    "src_54280": 190,
+    "dst_59697": 132,
+    "src_58399": 101,
+    "src_59697": 88,
+    "dst_58656": 81,
+    "src_63697": 49,
+    "dst_63697": 47,
+    "dst_58399": 46,
+    "src_55499": 45,
+    "src_56010": 44,
+    "dst_54844": 44,
+    "dst_61480": 39,
+    "src_54844": 36
+  },
+  "timeline_summary": [
+    {
+      "protocol": "DNS",
+      "packet_count": 37,
+      "total_bytes": 3877,
+      "avg_packet_size": 104.78
+    },
+    {
+      "protocol": "ICMP",
+      "packet_count": 1,
+      "total_bytes": 590,
+      "avg_packet_size": 590.0
+    },
+    {
+      "protocol": "IPv6",
+      "packet_count": 4,
+      "total_bytes": 344,
+      "avg_packet_size": 86.0
+    },
+    {
+      "protocol": "TCP",
+      "packet_count": 349,
+      "total_bytes": 226610,
+      "avg_packet_size": 649.31
+    },
+    {
+      "protocol": "TCPv6",
+      "packet_count": 59,
+      "total_bytes": 24873,
+      "avg_packet_size": 421.58
+    },
+    {
+      "protocol": "UDP",
+      "packet_count": 550,
+      "total_bytes": 430911,
+      "avg_packet_size": 783.47
+    }
+  ]
+}
